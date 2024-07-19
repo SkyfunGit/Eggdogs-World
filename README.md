@@ -1,1 +1,1 @@
-This is "Eggdogs World" page, a webpage i created for fun and also to practise Html, Css, etc. There are still some missing things in the 'purchase' section (and also for some reason the first image on the site doesn´t appear). But suggestions are welcome!
+This is "Eggdogs World" page, a website i created for fun and also to practise Html, Css, etc. There are still some missing things in the 'purchase' section. But suggestions are appreciated!
