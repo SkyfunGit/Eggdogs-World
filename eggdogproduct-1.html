@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eggdogs World</title>
+    <link rel="shortcut icon" href="Assets/Images/eggdog-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Js/cookie.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">
+                <img src="Assets/Images/eggdog-logo.png" alt="Logo" width="30" height="30"
+                    class="d-inline-block align-text-top mx-2">
+                Eggdogs world
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="page-primary-content div-cream">
+        <div class="container-fluid p-0">
+            <div class="row container mx-auto">
+                <div class="col-md-6 p-0">
+                    <div class="imagediv w-75 h-auto mx-auto p-1 p-lg-4 rounded-3 sticky-lg-top">
+                        <img src="Assets/Images/eggdog-product-1.jpg" id="productImage" alt="Normal Eggdog"
+                            class="img-fluid border rounded-3 w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-md-6 py-lg-5">
+                    <h1 id="productTitle" class="display-5 biorhyme-font text-center">Normal Eggdog</h1>
+                    <p class="rating">4.9 &#11088;&#11088;&#11088;&#11088;&#11088; (400)</p>
+                    <h2 id="productPrice" class="display-3 text-success">£1999</h2>
+                    <h3>Specifications:</h3>
+                    <ul>
+                        <li>Height: 10 - 12 inches</li>
+                        <li>Weight: 25 - 30 lbs</li>
+                    </ul>
+
+                    <p class="fw-light">This is the eggdog in it's normal form, commonly found in Atlanta, loves
+                        humans
+                        and
+                        loves
+                        humanity. His favourite food are meatballs, sometimes he can stumble and fall to the ground,
+                        he's still learning how to walk.</p>
+                    <p class="fs-5 fw-bold d-inline">Quantity: </p>
+                    <select class="form-select my-2" id="inputGroupSelect01">
+                        <option selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <a href="https://www.youtube.com/watch?v=YAgJ9XugGBo">
+                        <button class="btn btn-success d-block mx-auto">Purchase</button>
+                    </a>
+
+
+                    <!--Comments-->
+                    <h3 class="text-center mt-5">Comments:</h3>
+                    <div class="comments d-flex justify-content-center flex-column row-gap-4">
+
+                        <div class="toast fade show shadow-none w-100" role="alert" aria-live="assertive"
+                            aria-atomic="true">
+                            <div class="toast-header bg-dark-subtle">
+                                <img src="/Assets/Images/eggdog-product-2.jpg" alt="profile-picture"
+                                    class="rounded me-2" width="40" height="40">
+                                <strong class="me-auto">Jenry ford</strong>
+                                <small>2 days ago</small>
+                            </div>
+                            <div class="toast-body">
+                                Beautiful eggdog. I don't regret purchasing this egg, i would recommend it for almost
+                                everyone
+                            </div>
+                        </div>
+
+                        <div class="toast fade show shadow-none w-100" role="alert" aria-live="assertive"
+                            aria-atomic="true">
+                            <div class="toast-header bg-success-subtle">
+                                <img src="/Assets/Images/eggdog-product-2.jpg" alt="profile-picture"
+                                    class="rounded me-2" width="40" height="40">
+                                <strong class="me-auto">Tom Churchill</strong>
+                                <small>2 days ago</small>
+                            </div>
+                            <div class="toast-body">
+                                Love at first sight. I bought 3, and they are like eggs, but dogs! Can you believe it?
+                                💗💗💗🐕🐕🐕🥚🥚🥚
+                            </div>
+                        </div>
+
+                        <div class="toast fade show shadow-none w-100" role="alert" aria-live="assertive"
+                            aria-atomic="true">
+                            <div class="toast-header bg-warning-subtle">
+                                <img src="/Assets/Images/eggdog-product-2.jpg" alt="profile-picture"
+                                    class="rounded me-2" width="40" height="40">
+                                <strong class="me-auto">Jessica Miller</strong>
+                                <small>3 days ago</small>
+                            </div>
+                            <div class="toast-body">
+                                Meatballs are really his favourite food! He is running rn in my house. OMG he just
+                                jumped to
+                                my table! I hope he doesn't walk above my keybr2b9 h43uohoh 8hu 4oqt7uhnfwnhdsulhfu
+                                dalh huwehruh sdfksdlajv ajdkoawfeji oknvoasdyhugady
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.onpaint(DisplayProductByCookies());
+    </script>
+
+</body>
+
+</html>

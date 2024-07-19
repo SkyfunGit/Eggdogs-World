@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eggdogs World</title>
+  <link rel="shortcut icon" href="Assets/Images/eggdog-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="Js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!--hero image-->
+  <header>
+    <div class="container-fluid p-0 hero-image text-center">
+      <div class="background-image">
+        <!--background overlay-->
+        <div class="background-overlay w-100 h-100">
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">
+                <img src="Assets/Images/eggdog-logo.png" alt="Logo" width="30" height="30"
+                  class="d-inline-block align-text-top mx-2">
+                Eggdogs world
+              </a>
+            </div>
+          </nav>
+
+          <!--overlay text-->
+          <div class="overlay-text">
+            <h1 class="display-1 text-white fbebasneue">Eggdogs World</h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-primary-content">
+    <div class="container-fluid p-0"> <!--maybe an unnecesary container-->
+
+      <div class="yellow-div container-fluid py-5">
+        <div class="row container text-dark-emphasis mx-auto">
+
+          <div class="container p-0 text-center text-white col-md-6">
+            <h2 class="display-4 biorhyme-font">Eggdogs</h2>
+            <p class="fw-bolder">We have eggdogs!</p>
+            <p class="ms-5 me-5 fw-bold">This page is about eggdogs! Because they are hilarious, funny, small, eggdog,
+              and
+              tiny! Look at all the eggdogs that we have here!
+            </p>
+          </div>
+
+          <div class="container p-0 col-md-6">
+            <img src="Assets/Images/eggdog-1.bmp" class="img-fluid rounded mx-auto d-block" alt="Eggdog Image"
+              title="eggdog">
+          </div>
+        </div>
+
+      </div>
+
+      <!--the eggdogs catalogue-->
+      <div class="container-fluid py-5 div-cream">
+        <div class="container p-0 text-center text-dark col">
+          <h2 class="display-4 biorhyme-font">The eggdogs catalogue</h2>
+          <p class="ms-5 me-5"> Delight yourself with the beautiful collection of eggdogs we have to show you
+          </p>
+        </div>
+      </div>
+
+      <div class="container-fluid m-0 pb-5 py div-cream">
+        <div class="container text-dark text-center">
+          <!--grid-->
+          <div class="row g-3 d-none d-md-flex w-auto">
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-1.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Normal eggdog</h5>
+                  <p class="card-text">This is the eggdog in it's basic form, easy to find in Atlanta,
+                    well
+                    kept,
+                    fitness
+                    figure.
+                  </p>
+                  <p class="price text-success fw-bold">£1999</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card1')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-2.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">3D eggdog</h5>
+                  <p class="card-text">Eggdog in 3D digital model introduced to videogames, ready to go into a battle
+                    royale.
+                  </p>
+                  <p class="price text-success fw-bold">£2350</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card2')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-3.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Eggdog Roblox</h5>
+                  <p class="card-text">Eggdog translated into the roblox world, a nice hat accesory to place on your
+                    avatar.
+                  </p>
+                  <p class="price text-success fw-bold">£2000</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card3')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-4.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Luigi eggdog</h5>
+                  <p class="card-text">Inspired in Mario's brother, this eggdog will help you finding power-ups and
+                    mushrooms.</p>
+                  <p class="price text-success fw-bold"> £2750</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card4')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <!--The other row-->
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-5.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Cook eggdogs</h5>
+                  <p class="card-text">A brotherhood trio that will assist you in the dicipline of preparing meals, a
+                    very united team.</p>
+                  <p class="price text-success fw-bold">£2250</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card5')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-6.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Portrait eggdog</h5>
+                  <p class="card-text">Beautiful eggdog portrait to embellish inner spaces, the thing is sometimes it
+                    may emit barks</p>
+                  <p class="price text-success fw-bold">£2500</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card6')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-7.jpg" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Sonic the eggdog</h5>
+                  <p class="card-text">The sonic version of eggdog, willing to defeat eggman, also knows how to shoot
+                    misiles</p>
+                  <p class="price text-success fw-bold">£2350</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card7')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card p-0 mx-auto" style="width: 18rem;">
+                <img src="Assets/Images/eggdog-product-8.bmp" class="card-img-top" alt="Eggdog product"
+                  style="width: auto; height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Tiny eggdogs</h5>
+                  <p class="card-text">With less size than a golf ball, this eggdogs fit into your pockets!
+                    Carry them wherever you want!</p>
+                  <p class="price text-success fw-bold">£2350</p>
+                  <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card8')">Acquire</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!--Carousel-->
+
+          <div id="EggdogsCarousel" class="carousel d-block d-md-none text-center">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--eggdog-product-->
+                <div id="card1" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-1.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Normal eggdog</h5>
+                    <p class="card-text">This is the eggdog in it's basic form, easy to find in
+                      Atlanta,
+                      well
+                      kept,
+                      fitness
+                      figure.
+                    </p>
+                    <p class="price text-success fw-bold">£1999</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card1')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card2" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-2.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">3D eggdog</h5>
+                    <p class="card-text">Eggdog in 3D digital model introduced to videogames, ready to go into a
+                      battle
+                      royale.
+                    </p>
+                    <p class="price text-success fw-bold">£2350</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card2')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card3" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-3.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Eggdog Roblox</h5>
+                    <p class="card-text">Eggdog translated into the roblox world, a nice hat accesory to place on your
+                      avatar.
+                    </p>
+                    <p class="price text-success fw-bold">£2000</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card3')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card4" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-4.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Luigi eggdog</h5>
+                    <p class="card-text">Inspired in Mario's brother, this eggdog will help you finding power-ups and
+                      mushrooms.</p>
+                    <p class="price text-success fw-bold"> £2750</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card4')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card5" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-5.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Cook eggdogs</h5>
+                    <p class="card-text">A brotherhood trio that will assist you in the dicipline of preparing meals, a
+                      very united team.</p>
+                    <p class="price text-success fw-bold">£2250</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card5')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card6" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-6.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Portrait eggdog</h5>
+                    <p class="card-text">Beautiful eggdog portrait to embellish inner spaces, the thing is sometimes it
+                      may emit barks</p>
+                    <p class="price text-success fw-bold">£2500</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card6')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card7" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-7.jpg" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Sonic the eggdog</h5>
+                    <p class="card-text">The sonic version of eggdog, willing to defeat eggman, also knows how to shoot
+                      misiles</p>
+                    <p class="price text-success fw-bold">£2350</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card7')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--eggdog-product-->
+                <div id="card8" class="card p-0 mx-auto" style="width: 18rem;">
+                  <img src="Assets/Images/eggdog-product-8.bmp" class="card-img-top" alt="Eggdog product"
+                    style="width: auto; height: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Tiny eggdogs</h5>
+                    <p class="card-text">With less size than a golf ball, this eggdogs fit into your pockets!
+                      Carry them wherever you want!</p>
+                    <p class="price text-success fw-bold">£2350</p>
+                    <a href="eggdogproduct-1.html" class="btn btn-success" onclick="GetCardData('card8')">Acquire</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#EggdogsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#EggdogsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+            <p class="fw-bold">Swipe to see more eggdogs!</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!--Where to find us-->
+      <div class="yellow-div container-fluid py-5">
+        <div class="container text text-center text-white">
+          <h2 class="display-4 biorhyme-font w-auto">Where to find us</h2>
+          <div class="row">
+            <div class="col-sm-6 fs-3 d-flex align-items-center">
+              We have several locals distributed around the world, and our customer support is trained to satify your
+              needs, find us in the following locations
+            </div>
+            <div class="col-sm-6">
+              <!--Acordion-->
+
+              <div class="accordion" id="locations-acordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img src="Assets/Images/united-kindgdom-flag.png" alt="emoji of uk" class="img-fluid me-3"
+                        width="30px" height="auto">
+                      George St - Leeds - United Kingdom
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#locations-acordion">
+                    <div class="accordion-body">
+                      <img src="Assets/Images/location-1.bmp" alt="Eggdogs in Leeds, United Kingdom" width="100%"
+                        height="auto" class="rounded-2"> <small>not the actual place</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <img src="Assets/Images/united-states-flag.png" alt="emoji of uk" class="img-fluid me-3"
+                        width="30px" height="auto">
+                      Sisters Ville - United States
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#locations-acordion">
+                    <div class="accordion-body">
+                      <img src="Assets/Images/location-2.bmp" alt="Eggdogs in Sisters Ville - United States"
+                        width="100%" height="auto" class="rounded-2"> <small>not the actual place</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                      onclick="getLocation()">
+                      Behind you.
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#locations-acordion">
+                    <div class="accordion-body">
+                      <p id="location">Wait for us.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container-fluid py-5 bg-dark">
+      <div class="container text text-white">
+        <div class="display-5 border-bottom">About us</div>
+        <div class="py-2">
+          <p>"We are a passionate legion of eggdogs willing to empower eggdog rights and enforce the recognition of us
+            as
+            a legal actor in the gloval society" -Eggdog</p>
+
+          <h3>Contact</h3>
+          <ul id="menu-contact" class="list-unstyled">
+            <li><a href="https://www.youtube.com/watch?v=YAgJ9XugGBo" target="_blank"
+                class="text-decoration-none text-white">Twitter</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YAgJ9XugGBo" target="_blank"
+                class="text-decoration-none text-white">Instagram</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YAgJ9XugGBo" target="_blank"
+                class="text-decoration-none text-white">Facebook</a></li>
+          </ul>
+        </div>
+        <strong class="float-end">This page is a satire. Don't think it's true</strong>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../Assets/Fonts/Bebas-Neue/BebasNeue-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Lilita+One&display=swap');
+
+.hero-image{
+    display: flex;
+    height: 45vh;
+}
+
+.background-image{
+    background-image: url("../Assets/Images/sunset.jpg");
+    width: 100%;
+    height: 100%;
+    background-position-y: 30%;
+    background-size: 100% 100%;
+}
+
+.background-overlay{
+    background-image: linear-gradient(to top right, rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+
+.overlay-text{
+    height: calc(100% - 57.5px); /*100% - navbar height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text h1{
+    font-size: 10vw;
+}
+
+.fbebasneue{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.biorhyme-font {
+    font-family: "BioRhyme", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.first-title{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow-div{
+    background-color: rgb(255, 230, 130);
+}
+
+.div-cream{
+    background-color: antiquewhite;
+}
