@@ -1,1 +1,3 @@
 This is "Eggdogs World" page, a website i created for fun and also to practise Html, Css, JavaScript, Bootstrap, etc. There are still some missing things in the 'purchase' section. But suggestions are appreciated!
+
+25/10/26: collaborating with Matias00001
